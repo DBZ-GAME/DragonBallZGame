@@ -1,44 +1,64 @@
-div{
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;/*auto*/
+}
+
+div {
     background-repeat: no-repeat;
-    background-size: cover ;   
+    background-size: cover;
     background-position: center center center;
     background-position: fixed;
     margin: 0%;
     padding: 0%;
 }
-video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 
+video {
+    position: absolute;
+    left: 0; /*top: 0;*/
+    width: 100%;
+    height: 100%; /*auto*/
+    object-fit: cover;
 }
-a{
+
+a {
     background-color: rgb(231, 194, 31);
     border: 15px double skyblue;
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
-    font-size: 60px
-
-;
+    font-size: 60px;
 }
-/* .boton{
-    width: 400px;
-    height: 200px;
-    bottom: 10px;
-    left: 87%;
-    position: fixed;
-} */
 
-/* Boton centrado */
-.boton{
+.boton {
     width: 400px;
     height: 100px;
     bottom: 10px;
-    left: 42%;
+    left: 40%;
     position: fixed;
 }
+
+/* video */
+/*
+.contenedor {
+    border: 1px solid black;
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px aut 0;
+    overflow: hidden;
+}
+.video video{
+width: 100%;
+height: auto;
+}
+
+width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
